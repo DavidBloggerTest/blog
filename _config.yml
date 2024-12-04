@@ -25,7 +25,7 @@ gitalk:
 excerpt_separator: <!-- more -->
 
 footer-links:
-  email: blog-zh@davidx.us.kg
+  email: blog@davidx.us.kg
   github: Davidasx
   rss:  this_is_rss # nothing to change here
 
