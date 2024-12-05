@@ -2,7 +2,7 @@
 layout: post
 title: "About separation of International and Chinese versions"
 date: 2024-12-05 17:13 +0800
-tags: [Announcement,Sync]
+tags: [Announcement]
 comments: true
 author: DavidX
 ---
