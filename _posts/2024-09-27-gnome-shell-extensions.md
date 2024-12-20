@@ -32,6 +32,6 @@ All public extensions can be found [here](https://extensions.gnome.org/). Here i
 
 ## Screenshot
 
-![img](https://blog.davidx.us.kg/images/pic2024092701.png)
+![img](https://blog.davidx.top/images/pic2024092701.png)
 
 You can see that the top bar has become half-transparent just like the left dock. Also, an Applications button, weather and system information appeared on the center. On the right, there is an extension manager and  clipboard manager. The GNOME Shell desktop is much better than before.

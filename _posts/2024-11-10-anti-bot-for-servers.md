@@ -10,7 +10,7 @@ author: DavidX
 This was my first time creating a self-hosted site (this blog itself isn't strictly self-hosted). The project is [here](https://github.com/Davidasx/flask-gpt). Just a few weeks after deployment, I've already seen a load of bots trying to hack into my site -- under plain sight. 
 
 Here's a screenshot of the log:
-![](https://blog.davidx.us.kg/images/pic2024111001.png)
+![](https://blog.davidx.top/images/pic2024111001.png)
 
 ## The Basis of the Attacks
 They were mostly trying to hack into index.php -- a file that I don't even have. PHP combines the front-end and back-end, so it's a common target for hackers. Hacking into the front-end may also enable hackers to inject into the back-end.

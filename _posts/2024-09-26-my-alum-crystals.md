@@ -19,5 +19,5 @@ In the first two days, nothing happened. So, today, I shook the bottle violently
 Although it wasn\'t exactly successful, the pictures are still quite good.
 
 Enjoy!
-![](https://blog.davidx.us.kg/images/pic2024092601.jpg)
-![](https://blog.davidx.us.kg/images/pic2024092602.jpg)
+![](https://blog.davidx.top/images/pic2024092601.jpg)
+![](https://blog.davidx.top/images/pic2024092602.jpg)

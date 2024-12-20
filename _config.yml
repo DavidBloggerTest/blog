@@ -1,8 +1,8 @@
 name: "DavidX's Blog"
 description: "Programming and more personal thoughts."
 
-avatar: https://blog.davidx.us.kg/images/avatar.png
-favicon: https://blog.davidx.us.kg/images/favicon.ico
+avatar: https://blog.davidx.top/images/avatar.png
+favicon: https://blog.davidx.top/images/favicon.ico
 
 navigation:
   - name: Home
@@ -25,13 +25,13 @@ gitalk:
 excerpt_separator: <!-- more -->
 
 footer-links:
-  email: blog@davidx.us.kg
+  email: blog@davidx.top
   github: Davidasx
-  rss:  this_is_rss # nothing to change here
+  rss: this_is_rss # nothing to change here
 
 footer-text: Copyright (c) DavidX 2024 # your name here
 
-url: https://blog.davidx.us.kg
+url: https://blog.davidx.top
 
 # do not change anything below this line!
 
@@ -67,4 +67,3 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-
