@@ -43,4 +43,12 @@ The firewall has been unning for nearly 24 hours and here are the results.
 
 ![](https://blog.davidx.top/images/pic2024122904.jpg)
 
-Seems like nobody from Russia are humans. None of them passed the CAPTCHA at all. The Tor-blocking rule hasn't blocked many visitors, however. Also, 300+ visitors were blocked by the UA rule, which is about the same as the number of Russian visitors. About 30 visitors were blocked by CAPTCHA on chat sites. (Among them were Bingbot. Well, it doesn't matter very much as I don't want my chat site to appear on search engines anyway.)
+Seems like nobody from Russia are humans. None of them passed the CAPTCHA at all. They were mostly trying to access wp-admin although my site is certainly not a WordPress site.
+
+The Tor-blocking rule hasn't blocked many visitors, however.
+
+300+ visitors were blocked by the UA rule, which is about the same as the number of Russian visitors. Many were using Go-http and were accessing wp-admin.
+
+About 30 visitors were blocked by CAPTCHA on chat sites. (Among them were Bingbot. Well, it doesn't matter very much as I don't want my chat site to appear on search engines anyway.)
+
+If you have a short domain name, consider setting up a WAF, especially if you're using WordPress. It's a must-have for security.
