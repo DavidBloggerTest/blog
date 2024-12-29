@@ -10,10 +10,10 @@ author: DavidX
 
 I recently bought the domain name `davidx.top` and put it under Cloudflare. However, just a few days later, the analytics showed that there were an unusual number of visitors.
 
-![](https://blog.davidx.top/images/pic2024122901.jpg)
+![](https://blog.davidx.top/images/pic2024122901.png)
 
 
-![](https://blog.davidx.top/images/pic2024122905.jpg)
+![](https://blog.davidx.top/images/pic2024122905.png)
 
 Yes, more than 400 requests from Russia and over 600 requests in a single hour. This is definitely not human.
 
@@ -25,7 +25,7 @@ Firstly, I blocked visitors from Tor and those with IP security score of 15+. Th
 
 In CloudFlare, Tor is a continent and also a country name, so it's quite easy to set up a block on it.
 
-![](https://blog.davidx.top/images/pic2024122902.jpg)
+![](https://blog.davidx.top/images/pic2024122902.png)
 
 Secondly, I set up a rule to block visitors whose UA doesn't contain `Mozilla/5.0`. I tested this by using `curl` and python's `requests` library and both were blocked. As the UA can be faked, `cloudscraper` can still easily bypass this.
 
@@ -35,13 +35,13 @@ Thirdly, I added a CAPTCHA challenge for everyone who visits the sites that are 
 
 Finally, to analyze the problem of Russian visitors and other potential threats, I set up a rule to challenge visitors from Russia, with an IP risk score of 3+, X-Forwarded-For of `.`, or HTTP version of `1.x`. Those are all characteristics of a bot.
 
-![](https://blog.davidx.top/images/pic2024122903.jpg)
+![](https://blog.davidx.top/images/pic2024122903.png)
 
 ## Results
 
 The firewall has been unning for nearly 24 hours and here are the results.
 
-![](https://blog.davidx.top/images/pic2024122904.jpg)
+![](https://blog.davidx.top/images/pic2024122904.png)
 
 Seems like nobody from Russia are humans. None of them passed the CAPTCHA at all. They were mostly trying to access wp-admin although my site is certainly not a WordPress site.
 
