@@ -33,7 +33,7 @@ To let search engines through, I let verified bots bypass this rule. (Although i
 
 Thirdly, I added a CAPTCHA challenge for everyone who visits the sites that are served by my own server ([flask-gpt](https://chat.davidx.top) and [free-chat](https://free-chat.davidx.top)) because they are a demo site and a free AI service respectively. I don't want them to be abused by bots (for example, reverse-engineering the AI to make it become a public API).
 
-Finally, to analyze the problem of Russian visitors and other potential threats, I set up a rule to challenge visitors from Russia, with an IP risk score of 3+, X-Forwarded-For of `.`, or HTTP version of `1.x`. Those are all characteristics of a bot.
+Finally, to analyze the problem of Russian visitors and other potential threats, I set up a rule to challenge visitors either from Russia, with an IP risk score of 3+, X-Forwarded-For of `.`, or HTTP version of `1.x`. Those are all characteristics of a bot.
 
 ![](https://blog.davidx.top/images/pic2024122903.png)
 
