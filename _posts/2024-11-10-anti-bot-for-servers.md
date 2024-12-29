@@ -2,7 +2,7 @@
 layout: post
 title: "Anti Bot For Servers"
 date: 2024-11-10 15:58 +0800
-tags: [Guide,IT,Web]
+tags: [Guide,IT,Ops]
 comments: true
 author: DavidX
 ---
